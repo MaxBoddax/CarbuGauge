@@ -16,7 +16,7 @@ Special thanks to ChanonTonmai  https://github.com/ChanonTonmai Hes wrote all th
 
 
  Goals: Read negative pressure values translated in voltage , converted to digital by ADC then outputs elaborated from fpga that 
- will drive 4 bar of 30 leds each with peak hold function .
+ will drive 4 bar of 30 leds each with peak hold function . And use cheaper CPLD with mux led driving function to reduce pins usage.
 
 
 05/28/2023 Not yet working , actually only I2C comunication between fpga and adc converter is working 
