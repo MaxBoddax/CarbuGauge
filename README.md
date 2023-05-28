@@ -1,13 +1,13 @@
 # CarbuGauge
 Synchronizing carburetors gauge tools , 4 channels led vumeter with peak hold.
 
-ADS1115: Adafruit board 4CH ADC
+ADS1115: Adafruit board 4CH ADC.
 
-FPGA:    Altera EP4CE6E22CN8
+FPGA:    Altera EP4CE6E22CN8.
 
-SENSORS: 4 +/- vacuum pressure sensors 6847A  Ranges: -100kPa～0kPa...1500kPa(-15PSI～0PSI...225PSI)
+SENSORS: 4 +/- vacuum pressure sensors 6847A  Ranges: -100kPa～0kPa...1500kPa(-15PSI～0PSI...225PSI).
 
-LED BARS: 3 bars 
+LED BARS: 3 bars of 10 leds for each channel.
 
 
 Special thanks to ChanonTonmai  https://github.com/ChanonTonmai Hes wrote all the code for His ADS1115-VHDL-with-AXI-DMA project.
