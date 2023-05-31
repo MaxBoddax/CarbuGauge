@@ -10,9 +10,9 @@ SENSORS: 4 +/- vacuum pressure sensors 6847A  Ranges: -100kPa～0kPa...1500kPa(-
 LED BARS: 3 bars of 10 leds for each channel.
 
 
-Special thanks to ChanonTonmai  https://github.com/ChanonTonmai Hes wrote all the code for His ADS1115-VHDL-with-AXI-DMA project.
+Special thanks to ChanonTonmai  https://github.com/ChanonTonmai Hes wrote most of the code for His ADS1115-VHDL-with-AXI-DMA project.
  
- i'm just reuse it with modified parts and try adapting to my project.
+ i'm just reuse it with modify parts and create additional files vhdl try adapting to my project.
 
 
  Goals: Read negative pressure values translated in voltage , converted to digital by ADC then outputs elaborated from fpga that 
