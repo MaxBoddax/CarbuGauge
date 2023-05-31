@@ -1,3 +1,6 @@
+-- Bits assembler for ads1115 conf
+-- ChanonTonmai
+
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 USE ieee.numeric_std.ALL;
