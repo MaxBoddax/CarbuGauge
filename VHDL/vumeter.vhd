@@ -58,6 +58,18 @@ ARCHITECTURE Behavioral OF vumeter IS
 			data_rd : OUT STD_LOGIC_VECTOR(15 DOWNTO 0)
 		);
 	END COMPONENT;
+	
+	COMPONENT led_bars IS
+		PORT (
+        clk : in std_logic;
+        reset_n : in std_logic;
+        adc_data_ch0 : in std_logic_vector(15 downto 0);
+        adc_data_ch1 : in std_logic_vector(15 downto 0);
+        adc_data_ch2 : in std_logic_vector(15 downto 0);
+        adc_data_ch3 : in std_logic_vector(15 downto 0);
+        led_bar_out : out std_logic_vector(29 downto 0)
+		);
+	END COMPONENT;
 
 	SIGNAL clk_50 : STD_LOGIC;
 	SIGNAL ena : STD_LOGIC;
