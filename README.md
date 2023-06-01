@@ -22,7 +22,7 @@ Special thanks to ChanonTonmai  https://github.com/ChanonTonmai Hes wrote most o
 05/28/2023 Not yet working , actually only I2C comunication between fpga and adc converter is working 
            next step implements reading from all 4 channel.
 
-05/30/2023 Added led bars driver and 4 channel adc reader , everything need to be tested in multisim 
+05/30/2023 Added led bars driver and 4 channel adc reader , everything need to be tested in Modelsim 
            don't think actually its fully working for sure need modification especially in clocks things
            and internal connections.
 
