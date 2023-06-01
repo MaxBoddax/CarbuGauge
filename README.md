@@ -26,3 +26,4 @@ Special thanks to ChanonTonmai  https://github.com/ChanonTonmai Hes wrote most o
            don't think actually its fully working for sure need modification especially in clocks things
            and internal connections.
 
+06/1/2023 Added minor fixes , Quartus 17.1 is compiling but with with major warninggs 
